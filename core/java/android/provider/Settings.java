@@ -5314,6 +5314,12 @@ public final class Settings {
         public static final String FORCE_SHOW_NAVBAR = "navigation_bar_show_new";
 
         /**
+         * Audio focus mode for ringtones when headset is connected
+         * @hide
+         */
+        public static final String RINGTONE_FOCUS_MODE = "ringtone_focus_mode";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
